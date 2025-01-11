@@ -1,234 +1,231 @@
 @charset "UTF-8";
 /*共通*/
-h3{
-font-size: 1.8rem;
-font-weight: 600;
-border-bottom: solid 5px #ddd;
-position: relative;
-padding: 60px 0 20px;
-margin-bottom: 30px;
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-bottom: solid 5px #ddd;
+    position: relative;
+    padding: 60px 0 20px;
+    margin-bottom: 30px;
 }
-h3:after {
-position: absolute;
-content: " ";
-display: block;
-border-bottom: solid 5px #168352;
-bottom: -5px;
-width: 13%;
+h2:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 5px #168352;
+    bottom: -5px;
+    width: 13%;
 }
-.l-inner-01{
-max-width: 800px;
-margin: 0 auto;
+.l-inner-01 {
+    max-width: 800px;
+    margin: 0 auto;
 }
-
 /*section11*/
-#section11 .__block-01{
-position: relative;
-margin: 40px 0;
+#section11 .__block-01 {
+    position: relative;
+    margin: 40px 0;
 }
-#section11 img{
-border-radius: 24px;
-height: 550px;
-object-fit: cover;
-object-position: center;
+#section11 img {
+    border-radius: 24px;
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
 }
-#section11 .subtitle{
-background-color: #fff;
-font-size: 2.1rem;
-font-weight: 700;
-padding: 30px 40px;
-letter-spacing: 0.18rem;
-position: absolute;
-bottom: 0;
-border-radius: 0 24px 0 0;
+#section11 .subtitle {
+    background-color: #fff;
+    font-size: 2.1rem;
+    font-weight: 700;
+    padding: 30px 40px;
+    letter-spacing: 0.18rem;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 24px 0 0;
 }
-#section11 .desc{
-text-align: right;
-padding: 20px;
-font-size: .8rem;
+#section11 .desc {
+    text-align: right;
+    padding: 20px;
+    font-size: .8rem;
 }
 /*section12*/
-#section12 .radius24{
-border-radius: 24px;
+#section12 .radius24 {
+    border-radius: 24px;
 }
-#section12 .radius16{
-border-radius: 16px;
+#section12 .radius16 {
+    border-radius: 16px;
 }
 /*スライダー*/
-#section12 .slick-dots{
-bottom: 35px;
+#section12 .slick-dots {
+    bottom: 35px;
 }
-#section12 .slick-dots li.slick-active button:before{
-color:#168352;
+#section12 .slick-dots li.slick-active button:before {
+    color: #168352;
 }
-#section12 .slick-dots li button:before{
-font-size: 10px;
-line-height: 60px;
-color: #eee;
-opacity:unset;
+#section12 .slick-dots li button:before {
+    font-size: 10px;
+    line-height: 60px;
+    color: #eee;
+    opacity: unset;
 }
-.slick-dots li{
-margin: 0 -3px;
+.slick-dots li {
+    margin: 0 -3px;
 }
-.slick-next, .slick-prev{
-display: none !important;
+.slick-next, .slick-prev {
+    display: none !important;
 }
-#section12 .__block-01{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-gap: 30px;
+#section12 .__block-01 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
-#section12 .__block-01 p{
-font-size: 1.1rem;
-font-weight: 600;
-padding: 10px 0;
-line-height: 2rem;
-letter-spacing: 0.05rem;
+#section12 .__block-01 p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 10px 0;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
 }
-#section12 .price__bold{
-font-family: "Montserrat", serif;
-font-optical-sizing: auto;
-font-weight: 700;
-font-style: normal;
-font-size: 2rem;
-padding-bottom: 10px;
-color: #168352;
+#section12 .price__bold {
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    padding-bottom: 10px;
 }
-#section12 .price__bold span{
-font-family: "Noto Sans JP", serif;
-font-weight: 700;
-font-style: normal;
+#section12 .price__bold span {
+    font-family: "Noto Sans JP", serif;
+    font-weight: 700;
+    font-style: normal;
 }
-#section12 h4{
-font-size: 1.5rem;
-font-weight: 600;
-padding: 0.25em 0.5em;
-background: transparent;
-border-left: solid 3px #168352;
+#section12 h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.25em 0.5em;
+    background: transparent;
+    border-left: solid 3px #168352;
 }
-#section12 .table__wrap{
-padding: 0 30px;
+#section12 .table__wrap {
+    padding: 0 30px;
 }
-#section12 table{
-margin: 20px 0 60px;
-width: 100%;
+#section12 table {
+    margin: 20px 0 60px;
+    width: 100%;
 }
-#section12 table,#section12 td,#section12 th{
-border-collapse: collapse;
-border:1px solid #ddd;
-padding: 20px;
+#section12 table, #section12 td, #section12 th {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    padding: 20px;
 }
 #section12 th {
-background-color: #f5f5f5;
-text-align: left;
+    background-color: #f5f5f5;
+    text-align: left;
 }
-#section13 .contact__Ft{
-position: relative;
+#section13 .contact__Ft {
+    position: relative;
 }
-#section13 .btn{
-position: absolute;
-top: 40%;
-left: 40%;
-width: 300px;
-display: block;
-margin: 30px auto 0;
-padding: 20px;
-text-align: center;
-font-size: 1.2rem;
+#section13 .btn {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 300px;
+    display: block;
+    margin: 30px auto 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
 }
-#section13 .btn--white{
-color: #fff;
-border: 2px solid #fff;
+#section13 .btn--white {
+    color: #fff;
+    border: 2px solid #fff;
 }
 #section13 .btn--white:hover {
-color: #168352;
-background: #fff;
-opacity: 1 ;
+    color: #168352;
+    background: #fff;
+    opacity: 1;
 }
 /*sp
 ----------------------*/
 @media screen and (max-width:767px) {
-/*共通*/
-h3{
-font-size: 1.4rem;
-border-bottom: solid 3px #ddd;
-padding: 30px 0 10px;
-margin-bottom: 30px;
-}
-h3:after {
-position: absolute;
-content: " ";
-display: block;
-border-bottom: solid 3px #168352;
-bottom: -3px;
-}
-.l-inner-01{
-margin: 0 15px;
-}
-
-/*section11*/
-#section11 .__block-01{
-margin: 20px 0 0;
-}
-#section11 img{
-height: auto;
-}
-#section11 .subtitle{
-font-size: 1.8rem;
-padding: 30px 0;
-position:static;
-}
-#section11 .desc{
-text-align: right;
-padding: 0;
-font-size: .8rem;
-}
-/*section12*/
-/*スライダー*/
-#section12 .slick-dots{
-bottom: 20px;
-}
-#section12 .__block-01{
-display: flex;
-flex-direction: column;
-}
-#section12 .__block-01 p{
-letter-spacing: 0.02rem;
-}
-#section12 .price__bold span{
-font-size: 50%;
-}
-#section12 h4{
-font-size: 1.3rem;
-}
-#section12 .table__wrap{
-padding: 0;
-}
-#section12 th,#section12 td{
-display:block;
-}
-#section12 table,#section12 td,#section12 th{
-padding: 10px 20px;
-}
-
-#section13 .contact__Ft{
-position: relative;
-height: 360px;
-}
-#section13 .contact__Ft img{
-height: 360px;
-object-fit: cover;
-}
-#section13 .btn{
-position: absolute;
-top: 30%;
-left: 4%;
-width: 80%;
-display: block;
-margin: 30px auto 0;
-padding: 20px;
-text-align: center;
-font-size: 1.2rem;
-}
-
+    /*共通*/
+    h2 {
+        font-size: 1.4rem;
+        border-bottom: solid 3px #ddd;
+        padding: 30px 0 10px;
+        margin-bottom: 30px;
+    }
+    h2:after {
+        position: absolute;
+        content: " ";
+        display: block;
+        border-bottom: solid 3px #168352;
+        bottom: -3px;
+    }
+    .l-inner-01 {
+        margin: 0 15px;
+    }
+    /*section11*/
+    #section11 .__block-01 {
+        margin: 20px 0 0;
+    }
+    #section11 img {
+        height: auto;
+    }
+    #section11 .subtitle {
+        font-size: 1.8rem;
+        padding: 30px 0;
+        position: static;
+    }
+    #section11 .desc {
+        text-align: right;
+        padding: 0;
+        font-size: .8rem;
+    }
+    /*section12*/
+    /*スライダー*/
+    #section12 .slick-dots {
+        bottom: 20px;
+    }
+    #section12 .__block-01 {
+        display: flex;
+        flex-direction: column;
+    }
+    #section12 .__block-01 p {
+        letter-spacing: 0.02rem;
+    }
+    #section12 .price__bold span {
+        font-size: 50%;
+    }
+    #section12 h3 {
+        font-size: 1.3rem;
+    }
+    #section12 .table__wrap {
+        padding: 0;
+    }
+    #section12 th, #section12 td {
+        display: block;
+    }
+    #section12 table, #section12 td, #section12 th {
+        border: 0.5px solid #ddd;
+    }
+    #section12 table, #section12 td, #section12 th {
+        padding: 7px 20px;
+    }
+    #section13 .contact__Ft {
+        position: relative;
+        height: 360px;
+    }
+    #section13 .contact__Ft img {
+        height: 360px;
+        object-fit: cover;
+    }
+    #section13 .btn {
+        position: absolute;
+        top: 30%;
+        left: 4%;
+        width: 80%;
+        display: block;
+        margin: 30px auto 0;
+        padding: 20px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
 }
